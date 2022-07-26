@@ -1,0 +1,33 @@
+body {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+h1 {
+    font-size: 60px;
+}
+
+#name {
+    color: orange;
+}
+
+h3 {
+    font-size: 30px;
+}
+
+#fast_para {
+    font-size: 20px;
+}
+
+section {
+    display: flex;
+}
+
+.half_with {
+    width: 50%;
+    padding-left: 5px;
+}
+
+.half_with img {
+    width: 80%;
+
+}
