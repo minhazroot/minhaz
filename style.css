@@ -7,7 +7,7 @@ h1 {
     font-size: 40px;
 }
 
-#name {
+.name {
     color: orange;
 }
 
@@ -19,7 +19,7 @@ h3 {
     font-size: 20px;
 }
 
-section {
+.flexible-contenar {
     display: flex;
 }
 
@@ -62,4 +62,35 @@ section {
     background-image: url(img/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+
+.Experiences_area {
+    background-image: url(img/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left center;
+}
+
+.Experiences-item {
+    border-radius: 10px;
+    width: 40%;
+    box-shadow: 10px 10px 40px gray;
+    padding: 20px;
+    margin-left: 5%;
+    margin-right: 5%;
+
+}
+
+#Full-Stack-Web-Developer {
+    border-left: 10px solid blue;
+}
+
+#Baby-Web-Developer {
+
+    border-left: 10px solid red;
+}
+
+footer p {
+    text-align: center;
+    font-weight: 600;
+
 }
